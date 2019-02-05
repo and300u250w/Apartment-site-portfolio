@@ -1,0 +1,10 @@
+img.card-img-top{
+    width: 90%;
+    margin: 15px;
+}
+
+img.card-img-top:hover {
+    transform: scale(1.05) !important;
+    transition: -ms-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, -webkit-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s !important;
+  }
+
