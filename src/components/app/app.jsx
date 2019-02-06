@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Header from '../header';
 import MainCarousel from '../main-carousel';
 import ImageAvatars from '../reviews';
@@ -27,13 +27,17 @@ export default class App extends Component {
 
         return (
             <Router>
+                {/* <Fragment>
+                    <Header
+                        pastReviews={<Reviews reviewData={this.state} />}
+                        partners={<Partners />}
+                        rodo={<Route path='/rodo' component={RODO} />}
+                    >
+                    </Header>
+                    <Route path='/krk' component={RoomPage} />
+                </Fragment> */}
 
-                <Header
-                    pastReviews={<Reviews reviewData={this.state} />}
-                    partners={<Partners />}
-                    rodo={<Route path='/rodo' componetn={RODO} />}
-                >
-                </Header>
+                <RoomPage />
 
             </Router>
 
