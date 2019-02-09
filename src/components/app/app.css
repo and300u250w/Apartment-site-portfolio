@@ -6,5 +6,6 @@ body {
 
 div {
     box-sizing: border-box;
+    padding-left: 0;
 }
 

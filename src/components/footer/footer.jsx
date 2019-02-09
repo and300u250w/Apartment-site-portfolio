@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-export class Footer extends Component{
+export default class Footer extends Component{
 
     render (){
         return (
@@ -45,7 +45,7 @@ export class Footer extends Component{
    
                        {/* <!-- Copyright --> */}
                        <div className="footer-copyright text-center py-3">© 2019 All rights are reserved.
-                       <Link to="rodo" >Privacy Policy </Link>
+                       
    
                        </div>
                        {/* <!-- Copyright --> */}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './header.css';
 
 export default class Header extends Component {
@@ -8,7 +9,11 @@ export default class Header extends Component {
 
             <header >
                 <nav id="navbar-example2" className="navbar navbar-light fixed-top" >
-                    <a className="navbar-brand" href="#" >Welcome Home</a>
+                         <a href="#" >
+                <img src={require('../image/Logo.png')} alt="" width="50"
+        height="50" />
+                </a>
+             
                     <ul className="nav nav-pills">
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Apartments</a>

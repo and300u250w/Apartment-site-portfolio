@@ -19,7 +19,7 @@ export default class Contact extends Component {
                             </div>
                             <h5 className="heading-style-5">E-mail:</h5>
                             <div className="contact_details">
-                                <i className="icons-marker fa fa-envelope" href="mailto:welcomehome@gmail.com"></i>
+                                <i className="fa fa-envelope" href="mailto:welcomehome@gmail.com"></i>
 
                                 <a href="mailto:welcomehome@gmail.com">welcomehome@gmail.com</a>
 
@@ -33,12 +33,10 @@ export default class Contact extends Component {
                             </div>
                         </Col>
                         <Col sm={6}>
-                            <h5>If you want to book
+                            <h5>Do you have any questions? Feel free to ask!
                             </h5>
                             <p>
-                                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commod.</p>
+                            We speak English, Polish, Russian and Ukranian languages and we'll be happy to help you with accomodation in Krakow or Warsaw </p>
 
                             <Col>
                                 <form action="mailto:andrii.osipov@gmail.com" method="post" enctype="text/plain">

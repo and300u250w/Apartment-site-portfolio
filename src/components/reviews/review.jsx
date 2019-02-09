@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import "./review.css";
 
 export default class Reviews extends Component {
-    state = {
-    }
+    
     render() {
         const { name, icon, url, date, review } = this.props.getReview;
         
@@ -12,8 +11,9 @@ export default class Reviews extends Component {
         const position = [0, 1, 2];
         let counter = -3;
         return (
-            <div data-source-url="https://livedemo00.template-help.com/opencart_55257/image/cache/catalog/parallax-1-2050x1231.jpg"
-    className="parallax-1">
+            <section className="reviews">
+            <h2 className="reviews">Guests testimony</h2>
+            
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active" data-interval="10000"></li>
@@ -61,7 +61,8 @@ export default class Reviews extends Component {
                     })}
                 </div>
             </div >
-            </div>
+           
+            </section>
         )
 
     }

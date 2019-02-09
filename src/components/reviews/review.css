@@ -1,4 +1,28 @@
-.parallax-1{
+/* .parallax-1{
     background-image: url("https://livedemo00.template-help.com/opencart_55257/image/cache/catalog/parallax-1-2050x1231.jpg");
     background-attachment: fixed; left: 50%; background-position: 50% 99.1509%;
+} */
+
+section.reviews{
+    
+    border-top: 2px solid #494949;
+    
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+div.carousel.slide{
+    padding-top: 60px;
+
+}
+
+div.carousel-inner{
+    min-height: 500px;
+}
+
+h2.reviews{
+    text-align: center;
+    color: rgb(33, 150, 243);
 }

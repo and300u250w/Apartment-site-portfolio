@@ -1,17 +1,17 @@
 div{
     display: block;
+    padding-left: 0;
 }
 
 div.row{
     padding-left: 0;
     padding-right: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+
     position: relative;
 }
 img.contact_details_airbnb{
     width: 20px;
-    margin-right: 15px;
+    
 }
 h5.heading-style-5{
     display: block;
@@ -31,7 +31,7 @@ h5.heading-style-5{
 }
 
 i{
-    color: #9f2c35;
+    
     width: 20px;
     margin-right: 15px;
     float: left;
@@ -49,3 +49,5 @@ small.form-text.text-muted{
     margin-top: -16px;
     margin-bottom: 20px
 }
+
+

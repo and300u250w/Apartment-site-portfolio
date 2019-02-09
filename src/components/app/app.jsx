@@ -10,6 +10,8 @@ import Partners from '../partners';
 import RODO from '../rodo';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from '../contact';
+import Footer from '../footer';
+import Why from '../why';
 
 
 
@@ -31,22 +33,19 @@ export default class App extends Component {
                     <Header/>
                    
                     <MainCarousel/>
-                    <CardView/>
-                    <Reviews getReview  = {this.state.AirbnbAPI}/>
-                    <Partners/>
+                    <Why/>
+                    <CardView/> 
                     
+                    <Reviews getReview  = {this.state.AirbnbAPI}/>
+
+                    <Footer/>
 
 
-
-                <RoomPage />
-                <Contact/>
+                
                 </Fragment>
             </Router>
 
         )
-
-
-
 
 
     }
