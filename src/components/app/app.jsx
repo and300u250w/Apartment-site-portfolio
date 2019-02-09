@@ -1,8 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Header from '../header';
 import MainCarousel from '../main-carousel';
-import ImageAvatars from '../reviews';
-import Reviews from '../reviews/testimony';
+import Reviews from '../reviews/review';
 import CardView from '../card-view';
 import AirbnbAPI from '../../service/airbnb';
 import RoomPage from '../room-page';
@@ -10,6 +9,7 @@ import GoogleApiWrapper from '../map/map';
 import Partners from '../partners';
 import RODO from '../rodo';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Contact from '../contact';
 
 
 
@@ -27,18 +27,20 @@ export default class App extends Component {
 
         return (
             <Router>
-                {/* <Fragment>
-                    <Header
-                        pastReviews={<Reviews reviewData={this.state} />}
-                        partners={<Partners />}
-                        rodo={<Route path='/rodo' component={RODO} />}
-                    >
-                    </Header>
-                    <Route path='/krk' component={RoomPage} />
-                </Fragment> */}
+                <Fragment>
+                    <Header/>
+                   
+                    <MainCarousel/>
+                    <CardView/>
+                    <Reviews getReview  = {this.state.AirbnbAPI}/>
+                    <Partners/>
+                    
+
+
 
                 <RoomPage />
-
+                <Contact/>
+                </Fragment>
             </Router>
 
         )

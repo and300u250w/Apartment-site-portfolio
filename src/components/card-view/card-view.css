@@ -8,3 +8,11 @@ img.card-img-top:hover {
     transition: -ms-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, -webkit-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s !important;
   }
 
+section.card-view{
+   
+    /* background-color: blue; */
+    background-image: url("../image/bokeh-city-lights-wallpaper-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}

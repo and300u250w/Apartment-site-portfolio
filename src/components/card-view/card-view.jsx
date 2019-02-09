@@ -19,6 +19,7 @@ export default class CardView extends Component {
         const selector = [0, 1];
 
         return (
+            <section className="card-view">
             <div className="container">
                 <div className="row" >{
                     selector.map(value => {
@@ -38,6 +39,7 @@ export default class CardView extends Component {
                     )}
                 </div>
             </div >
+            </section>
         )
     }
 }
