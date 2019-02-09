@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "e871a27b0bdd9f3674a24f84134137da",
-    "url": "/Apartment-site-portfolio/static/media/5. Sofa.e871a27b.jpg"
+    "revision": "f6c31d119ca179f29e22",
+    "url": "/Apartment-site-portfolio/static/css/main.ef29674c.chunk.css"
   },
   {
-    "revision": "f0f2530f909fa315ed89",
-    "url": "/Apartment-site-portfolio/static/css/main.d898cb4b.chunk.css"
+    "revision": "f6c31d119ca179f29e22",
+    "url": "/Apartment-site-portfolio/static/js/main.f6c31d11.chunk.js"
   },
   {
-    "revision": "9a32ed9d3f617cd2c0db7e80c9ae4538",
-    "url": "/Apartment-site-portfolio/static/media/microwave.9a32ed9d.svg"
+    "revision": "d897c4be9ea6919cfe81",
+    "url": "/Apartment-site-portfolio/static/css/1.110825fd.chunk.css"
   },
   {
-    "revision": "0dfec36b990ed6edff8a",
-    "url": "/Apartment-site-portfolio/static/js/1.0dfec36b.chunk.js"
+    "revision": "d897c4be9ea6919cfe81",
+    "url": "/Apartment-site-portfolio/static/js/1.d897c4be.chunk.js"
   },
   {
     "revision": "69cd4d4f87cea37ba5dc",
@@ -21,7 +21,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "5480bbb5900adff0bf82758a43d7b935",
-    "url": "/Apartment-site-portfolio/static/media/_free-icons_png_512_1298722.5480bbb5.png"
+    "url": "/Apartment-site-portfolio/static/media/airbnb.5480bbb5.png"
   },
   {
     "revision": "6a44c448db354e54cff86dc161096dcb",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/Apartment-site-portfolio/static/media/4. Bar.ec819de4.jpg"
   },
   {
-    "revision": "f0f2530f909fa315ed89",
-    "url": "/Apartment-site-portfolio/static/js/main.f0f2530f.chunk.js"
+    "revision": "e871a27b0bdd9f3674a24f84134137da",
+    "url": "/Apartment-site-portfolio/static/media/5. Sofa.e871a27b.jpg"
   },
   {
     "revision": "6d6e05c7c8a94f522f5e040d7f079b2f",
@@ -92,14 +92,6 @@ self.__precacheManifest = [
     "url": "/Apartment-site-portfolio/static/media/8. Full view.b675d36c.jpg"
   },
   {
-    "revision": "352d4c2c7d892f8649fd15617b72ee02",
-    "url": "/Apartment-site-portfolio/static/media/accenture.352d4c2c.png"
-  },
-  {
-    "revision": "a842ee8012a18f7dca58570d47bfc0f8",
-    "url": "/Apartment-site-portfolio/static/media/google.a842ee80.png"
-  },
-  {
     "revision": "d36d749310ea7f153c7e15905fc642ab",
     "url": "/Apartment-site-portfolio/static/media/iron.d36d7493.svg"
   },
@@ -112,11 +104,11 @@ self.__precacheManifest = [
     "url": "/Apartment-site-portfolio/static/media/towels.1a026170.svg"
   },
   {
-    "revision": "0dfec36b990ed6edff8a",
-    "url": "/Apartment-site-portfolio/static/css/1.9f5dbc5e.chunk.css"
+    "revision": "9a32ed9d3f617cd2c0db7e80c9ae4538",
+    "url": "/Apartment-site-portfolio/static/media/microwave.9a32ed9d.svg"
   },
   {
-    "revision": "87226be91039d66a7359c09ea9faee4a",
+    "revision": "7c6ed4d5363a6dc048e4eb0c43e5fa36",
     "url": "/Apartment-site-portfolio/index.html"
   }
 ];
