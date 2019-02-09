@@ -1,7 +1,7 @@
 {
   "main.css": "/Apartment-site-portfolio/static/css/main.ef29674c.chunk.css",
-  "main.js": "/Apartment-site-portfolio/static/js/main.f6c31d11.chunk.js",
-  "main.js.map": "/Apartment-site-portfolio/static/js/main.f6c31d11.chunk.js.map",
+  "main.js": "/Apartment-site-portfolio/static/js/main.9b3fea84.chunk.js",
+  "main.js.map": "/Apartment-site-portfolio/static/js/main.9b3fea84.chunk.js.map",
   "static/css/1.110825fd.chunk.css": "/Apartment-site-portfolio/static/css/1.110825fd.chunk.css",
   "static/js/1.d897c4be.chunk.js": "/Apartment-site-portfolio/static/js/1.d897c4be.chunk.js",
   "static/js/1.d897c4be.chunk.js.map": "/Apartment-site-portfolio/static/js/1.d897c4be.chunk.js.map",
@@ -29,9 +29,9 @@
   "static/media/shampoo.svg": "/Apartment-site-portfolio/static/media/shampoo.2b46a6f2.svg",
   "static/media/towels.svg": "/Apartment-site-portfolio/static/media/towels.1a026170.svg",
   "static/media/microwave.svg": "/Apartment-site-portfolio/static/media/microwave.9a32ed9d.svg",
-  "static/css/1.110825fd.chunk.css.map": "/Apartment-site-portfolio/static/css/1.110825fd.chunk.css.map",
   "static/css/main.ef29674c.chunk.css.map": "/Apartment-site-portfolio/static/css/main.ef29674c.chunk.css.map",
+  "static/css/1.110825fd.chunk.css.map": "/Apartment-site-portfolio/static/css/1.110825fd.chunk.css.map",
   "index.html": "/Apartment-site-portfolio/index.html",
-  "precache-manifest.a1b76d91117fc1c53be59b59791f92d7.js": "/Apartment-site-portfolio/precache-manifest.a1b76d91117fc1c53be59b59791f92d7.js",
+  "precache-manifest.19a57969248ae3869843c5d9d80cc6f9.js": "/Apartment-site-portfolio/precache-manifest.19a57969248ae3869843c5d9d80cc6f9.js",
   "service-worker.js": "/Apartment-site-portfolio/service-worker.js"
 }
