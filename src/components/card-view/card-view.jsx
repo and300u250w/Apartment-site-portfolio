@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './card-view.css';
 import 'animate.css';
 
@@ -6,7 +7,7 @@ import 'animate.css';
 export default class CardView extends Component {
 
     state = {
-        city: ["Krakow", "Wroclaw"],
+        city: ["krk", "wro"],
         description: ["Loft Style apartment next to Aqua Park and Quattro", "Studio apartment 15 min away from City Centre"],
         imageUrl: ["https://a0.muscache.com/im/pictures/99a2e677-92b3-45b0-b435-549b162a3c15.jpg",
             "https://a0.muscache.com/im/pictures/ca32182d-5bb8-42b5-b5c4-8855a7c78a15.jpg"],
@@ -16,13 +17,7 @@ export default class CardView extends Component {
         details:["Apartament for 4 people","Apartament for 2 people"]
 
     }
-    animation(){
-        this.setState( {
-            class_animated:true
-        } )
-        
-        
-    }
+ 
 
     render() {
 
@@ -53,7 +48,9 @@ export default class CardView extends Component {
                                     <div className="card-body">
                                         <h5 className="card-title">{description[value]}</h5>
                                         <p className="card-text">{anotation[value]}</p>
-                                        <a href="#" className="btn btn-primary" onClick={this.animation}>{button}</a>
+                                        
+                                        <Link className="btn btn-primary" to={city[value]} > {button}</Link>
+                                        
                                     </div>
                                 </div>
                             </div>

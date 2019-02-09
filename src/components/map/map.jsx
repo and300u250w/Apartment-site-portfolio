@@ -1,43 +1,50 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
  
+import './map.css';
+
 const AnyReactComponent = ({ text }) => <div style={{
-  color: 'white', 
-  background: 'grey',
-  padding: '15px 10px',
-  display: 'inline-flex',
-  textAlign: 'center',
-  alignItems: 'center',
-  justifyContent: 'center',
-  borderRadius: '100%',
-  transform: 'translate(-50%, -50%)'
+  
 }}>
-  {text}
+  <i className="fas fa-map-marker-alt"></i>
+
 </div>;
  
 class GoogleApiWrapper extends Component {
-  static defaultProps = {
-    center: {
+
+  state={
+    krk: {
       lat: 50.089001,
       lng: 19.979553
     },
-    zoom: 15
-  };
+    wro:{
+      lat: 51.091599,
+      lng: 17.046081
+    },
+    zoom: 16
+
+  }
+  
+
  
   render() {
+
+    const {city} = this.props
+    const location = (city == "wro") ? this.state.wro :this.state.krk
     return (
       
-      <div style={{ height: '100vh', width: '100%' }}>
+      <div className="maps">
         <GoogleMapReact
+        bootstrapURLKeys={{key:"AIzaSyDhVbUxuK9ix-HkqDpypN218lj4W1q8AL0"}}
           
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
+          defaultCenter={location}
+          defaultZoom={this.state.zoom}
      
         >
         <AnyReactComponent 
-          lat={50.089001} 
-          lng={19.979553} 
-          text={'WRO'} 
+          lat={location.lat} 
+          lng={location.lng} 
+          text={"text" } 
         />
         </GoogleMapReact>
       </div>

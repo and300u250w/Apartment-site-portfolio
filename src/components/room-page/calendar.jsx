@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import 'react-dates/initialize';
 import 'react-dates/lib/css/_datepicker.css';
 
-import { DateRangePicker } from 'react-dates';
+import { DayPickerSingleDateController } from 'react-dates';
 import { Container, Row, Col } from 'react-grid-system';
 
 export default class Calendar extends Component {
@@ -48,7 +48,7 @@ export default class Calendar extends Component {
                 <Row>
                     <Col xs={12} offset={{ md: 10 }}>
 
-                        <DateRangePicker
+                        <DayPickerSingleDateController
                             startDateId="startDate"
                             endDateId="endDate"
                             startDate={this.state.startDate}

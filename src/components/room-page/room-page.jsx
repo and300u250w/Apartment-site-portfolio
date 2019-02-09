@@ -4,26 +4,28 @@ import Galery from './galery';
 import Ameneties from './ameneties';
 import Description from './description';
 import Calendar from './calendar';
+import GoogleApiWrapper from '../map/map';
 
 
 export default class RoomPage extends Component {
 
 
-    state = {
-        WRO: "./images/WRO/5. Sofa.jpg"
-    }
     render() {
 
-        const { WRO } = this.state;
-
+        const city = this.props.match.path.split("/")[1];
+       
+        
+        
+        
         return (
-            <Fragment>
+            <Fragment >
+                <div id={city}>
                 <Ameneties />
-                <Description />
-                <Calendar />
+                <Description city = {city}/>
+                {/* <Calendar /> */}
                 <Galery />
-
-
+                <GoogleApiWrapper city = {city}/>
+                </div>
 
             </Fragment>
 

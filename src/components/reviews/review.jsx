@@ -11,12 +11,12 @@ export default class Reviews extends Component {
         const position = [0, 1, 2];
         let counter = -3;
         return (
-            <section className="reviews">
-            <h2 className="reviews">Guests testimony</h2>
+            <section className="reviews"  data-spy="scroll" data-target="#navbar-example2" data-offset="0" >
+            <h2 className="reviews " id="reviews">Guests testimony</h2>
             
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active" data-interval="10000"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active" data-interval="7000"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
