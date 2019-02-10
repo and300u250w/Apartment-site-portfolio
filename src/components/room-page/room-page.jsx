@@ -13,18 +13,17 @@ export default class RoomPage extends Component {
     render() {
 
         const city = this.props.match.path.split("/")[1];
-       
-        
-        
-        
+        console.log(city);
+
+
         return (
             <Fragment >
                 <div id={city}>
-                <Ameneties />
-                <Description city = {city}/>
-                {/* <Calendar /> */}
-                <Galery />
-                <GoogleApiWrapper city = {city}/>
+                    <Ameneties city={city} />
+                    <Description city={city} />
+                    {/* <Calendar /> */}
+                    <Galery city={city} />
+                    <GoogleApiWrapper city={city} />
                 </div>
 
             </Fragment>

@@ -2,7 +2,7 @@ import React, { Fragment, Component } from 'react';
 
 export default class Partners extends Component {
     render() {
-        console.log("tet");
+
 
         return (
             <Fragment>

@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Container, Row, Col} from 'react-grid-system';
+import React, { Component } from 'react';
+import { Container, Row, Col } from 'react-grid-system';
 
 import './contact.css';
 
@@ -7,10 +7,10 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <section className="contact">
+            <section className="contact" >
                 <Container>
-                    <Row>
-                        <Col sm={6}>
+                    <Row id="contact">
+                        <Col sm={4.5} >
                             <h5 className="heading-style-5">Phone:</h5>
                             <div className="contact_details">
                                 <i className="icons-marker fa fa-phone" href="tel: +48 783 358 551"></i>
@@ -26,71 +26,70 @@ export default class Contact extends Component {
                             </div>
                             <div className="contact_details">
                                 <img
-                                    src={require("../image/_free-icons_png_512_1298722.png")}
+                                    src={require("../image/airbnb.png")}
                                     alt="Airbnb"
-                                    className="contact_details_airbnb"/>
-                                <a href="https://airbnb.ru/rooms/14016936?s=51">Airbnb Page</a>
+                                    className="contact_details_airbnb" />
+                                <a href="https://airbnb.ru/rooms/14016936?s=51">  Airbnb Page</a>
                             </div>
                         </Col>
                         <Col sm={6}>
                             <h5>Do you have any questions? Feel free to ask!
                             </h5>
                             <p>
-                            We speak English, Polish, Russian and Ukranian languages and we'll be happy to help you with accomodation in Krakow or Warsaw </p>
+                                We speak English, Polish, Russian and Ukranian languages and we'll be happy to help you with accomodation in Krakow or Warsaw </p>
 
-                            <Col>
-                                <form action="mailto:andrii.osipov@gmail.com" method="post" enctype="text/plain">
-                                    <div className="form-row">
-                                        <div className="col-md-6 mb-4">
-                                            <input type="text" className="form-control" placeholder="First name" required/>
-                                        </div>
-                                        <div className="col-md-6 mb-4">
-                                            <input type="text" className="form-control" placeholder="Last name" required/>
-                                        </div>
 
+                            <form action="mailto:300u250w@gmail.com" method="POST" enctype="text/plain" name="EmailTestForm">
+                                <div className="form-row">
+                                    <div className="col-md-6 mb-4">
+                                        <input type="text" className="form-control" placeholder="First name" required />
                                     </div>
-                                    <div className="form-row">
-                                        <div className="col-md-6 mb-4">
-                                            <input
-                                                type="email"
-                                                className="form-control"
-                                                id="validationDefault03"
-                                                placeholder="Email"
-                                                required
-                                                aria-describedby="emailHelp"/>
-                                        </div>
-                                        <div className="col-md-6 mb-4">
-                                            <input
-                                                type="tel"
-                                                className="form-control"
-                                                id="validationDefault04"
-                                                placeholder="Phone"
-                                                required/>
-
-                                        </div>
-                                        <small id="emailHelp" className="form-text text-muted">We never share your email or phone number with anyone else.</small>
-
+                                    <div className="col-md-6 mb-4">
+                                        <input type="text" className="form-control" placeholder="Last name" required />
                                     </div>
-                                    <div class="mb-3">
-                                        <textarea
+
+                                </div>
+                                <div className="form-row">
+                                    <div className="col-md-6 mb-4">
+                                        <input
+                                            type="email"
                                             className="form-control"
-                                            id="validationTextarea"
-                                            placeholder="Your Message:"
-                                            required></textarea>
+                                            id="validationDefault03"
+                                            placeholder="Email"
+                                            required
+                                            aria-describedby="emailHelp" />
+                                    </div>
+                                    <div className="col-md-6 mb-4">
+                                        <input
+                                            type="tel"
+                                            className="form-control"
+                                            id="validationDefault04"
+                                            placeholder="Phone"
+                                            required
+                                            pattern="[0-9]{9}" />
 
                                     </div>
-                                    <Row>
-                                    <Col md={4}>
-                                    <button className="btn btn-primary" type="submit">Submit form</button>
-                                    </Col>
-                                    <Col md={3} >
-                                    <button className="btn btn-primary" type="reset" value="Reset">Clear</button>
-                                    </Col>
-                                    </Row>
+                                    <small id="emailHelp" className="form-text text-muted">We never share your email or phone number with anyone else.</small>
 
-                                    
-                                </form>
-                            </Col>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea
+                                        className="form-control"
+                                        id="validationTextarea"
+                                        placeholder="Your Message:"
+                                        required></textarea>
+
+                                </div>
+                                <Row>
+                                    <Col md={4}>
+                                        <button className="btn btn-primary" type="submit">Submit form</button>
+                                    </Col>
+
+                                </Row>
+
+
+                            </form>
+
 
                         </Col>
                     </Row>

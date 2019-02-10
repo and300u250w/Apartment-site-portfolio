@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import {Container, Row, Col} from 'react-grid-system';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Container, Row, Col } from 'react-grid-system';
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 export default class Footer extends Component {
@@ -9,7 +9,7 @@ export default class Footer extends Component {
         return (
 
             <footer className="page-footer font-small cyan darken-3">
-
+                {/*
                 <Container className="footer">
                     <Row >
 
@@ -17,9 +17,9 @@ export default class Footer extends Component {
 
                             <a href="https://www.airbnb.ru/users/show/22282395">
                                 <img
-                                    src={require("../image/_free-icons_png_512_1298722.png")}
+                                    src={require("../image/airbnb.png")}
                                     alt="Airbnb"
-                                    className="contact_details_airbnb"/></a>
+                                    className="contact_details_airbnb" /></a>
 
                             <a className="fb-ic" href="https://www.facebook.com/andrii.osipov">
                                 <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
@@ -49,7 +49,7 @@ export default class Footer extends Component {
 
                     </Row>
 
-                </Container>
+                </Container> */}
 
                 <div className="text-center py-3">
                     © 2019 All rights are reserved. <Link to="/rodo"> Privacy Policy </Link>
