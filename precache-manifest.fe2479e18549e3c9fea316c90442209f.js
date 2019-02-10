@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "08930f712a0c8f33504d",
-    "url": "/Apartment-site-portfolio/static/css/main.cfef041e.chunk.css"
+    "revision": "0d72a6ef9c62fd0e87e2",
+    "url": "/Apartment-site-portfolio/static/css/main.097f6ae0.chunk.css"
   },
   {
-    "revision": "08930f712a0c8f33504d",
-    "url": "/Apartment-site-portfolio/static/js/main.08930f71.chunk.js"
+    "revision": "0d72a6ef9c62fd0e87e2",
+    "url": "/Apartment-site-portfolio/static/js/main.0d72a6ef.chunk.js"
   },
   {
     "revision": "c4b25cef3240b78ecebb",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/Apartment-site-portfolio/static/media/microwave.9a32ed9d.svg"
   },
   {
-    "revision": "e27d3771fb7a32d0fff8ff4f7e4303e6",
+    "revision": "604e767ffec0cdba411312cb3c568a01",
     "url": "/Apartment-site-portfolio/index.html"
   }
 ];
