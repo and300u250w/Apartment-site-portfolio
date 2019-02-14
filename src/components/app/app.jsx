@@ -29,13 +29,20 @@ export default class App extends Component {
             <Router>
                 <Fragment>
                     <Header />
-                    <MainCarousel />
-                    <Why />
-                    <CardView />
+
                     <Switch>
+                        <Route exact path="/" 
+                        render={props =>
+                            <div>
+                              <MainCarousel />
+                              <Why />
+                              <CardView />
+                              <Reviews getReview={this.state.AirbnbAPI} />
+                            </div>
+                          } />
                         <Route exact path="/krk" component={RoomPage} />
                         <Route exact path="/wro" component={RoomPage} />
-                        <Reviews getReview={this.state.AirbnbAPI} />
+                       
                         <Route exact path="/rodo" component={RODO} />
                     </Switch>
                     <Contact />

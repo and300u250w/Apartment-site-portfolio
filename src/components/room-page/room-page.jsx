@@ -13,7 +13,9 @@ export default class RoomPage extends Component {
 
 
     render() {
-        const { city } = this.props.match.path.split("/")[1];
+        const  city  = this.props.match.path.split("/")[1];
+        
+        
 
         return (
             <Fragment >
